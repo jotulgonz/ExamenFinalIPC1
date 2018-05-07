@@ -77,6 +77,7 @@ public class lista {
            if(actual.datos.equals(x)){
                System.out.println("Ingrese un nuevo valor");
                actual.datos=teclado.next();
+               
            }
            actual=actual.siguiente;
        }while(actual!=primero);
